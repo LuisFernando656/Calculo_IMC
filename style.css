@@ -52,7 +52,7 @@ body, input, button {
 }
 
 .title {
-  font-size: 3.2rem;
+  font-size: clamp(2.5rem, 0.8rem + 6vw, 3.2rem);
   line-height: 4rem;
   color: var(--tt-heading);
 }
@@ -139,9 +139,6 @@ form button:hover {
   visibility: hidden;
 }
 
-h2.title {
-  font-size: clamp(2.5rem, 0.8rem + 6vw, 3.2rem);
-}
 
 .modal-wrapper .card {
   width: min(35rem, 75%);
